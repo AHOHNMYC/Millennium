@@ -128,8 +128,8 @@ endif()
 target_link_libraries(Millennium 
   Boxer
   cpr::cpr
-  unofficial::git2::git2
-  minizip::minizip
+  unofficial::libgit2::libgit2
+  unofficial::minizip::minizip
 )
 
 if(WIN32)

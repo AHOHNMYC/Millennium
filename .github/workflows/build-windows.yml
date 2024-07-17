@@ -172,7 +172,7 @@ jobs:
       run: |
 
         # bootstrap and install vcpkg
-        ./vendor/vcpkg/bootstrap-vcpkg.bat
+        ./vendor/vcpkg/bootstrap-vcpkg.bat -disableMetrics
         ./vendor/vcpkg/vcpkg integrate install
 
     - name: (Generator) Configure CMake
